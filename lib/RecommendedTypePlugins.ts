@@ -6,5 +6,5 @@ import {
 
 export interface RecommendedTypePluginsTheme extends MarginTypePluginTheme {}
 
-export const RecommendedTypePlugins: TypePlugin<RecommendedTypePluginsTheme>[] =
+export const RecommendedTypePlugins: readonly TypePlugin<RecommendedTypePluginsTheme>[] =
   [...MarginTypePlugins];

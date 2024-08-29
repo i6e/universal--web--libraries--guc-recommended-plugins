@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@icehouse/universal--web--libraries--guc-recommended-plugins",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "scripts": {
     "publish": "rimraf dist && tsc && cpy README.md .npmignore dist && package-json-minifier && dts-bundle-generator index.ts -o dist/index.d.ts && cd dist && npm publish"

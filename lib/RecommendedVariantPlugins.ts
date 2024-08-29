@@ -7,5 +7,5 @@ import {
 export interface RecommendedVariantPluginsTheme
   extends MediaVariantPluginTheme {}
 
-export const RecommendedVariantPlugins: VariantPlugin<RecommendedVariantPluginsTheme>[] =
+export const RecommendedVariantPlugins: readonly VariantPlugin<RecommendedVariantPluginsTheme>[] =
   [MediaVariantPlugin];
